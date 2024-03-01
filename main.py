@@ -10,7 +10,7 @@ class ElementsStorage:
         print(self.storage)
 
     def userChoiceInt(self): # uzivatelsky vstup
-        usrVstup = input("Zadajte 10 cisel oddelenych medzerou: ")
+        usrVstup = input("Zadajte 10 cisel oddelenych medzerou: ") # zadaj tieto cisla 1 2 3 4 5 6 7 8 9 10
         for num in usrVstup.split():
             self.storage.add(int(num))
         return self.storage
@@ -37,6 +37,8 @@ class FunctionsElements(ElementsStorage):
     def arithmElements(self, a, b):
         delenec = b//a
         return delenec
+
+
 
 elements = FunctionsElements()
 # elements = ElementsStorage()
