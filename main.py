@@ -42,3 +42,8 @@ elements = FunctionsElements()
 # elements = ElementsStorage()
 
 # elements.randomChoiceInt(10, 99) #random
+elements.userChoiceInt()  # user
+
+# print(elements.storage)
+print(elements.sumElements())
+print(elements.arithmElements(elements.lenStorage(), elements.sumElements()))
