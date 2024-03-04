@@ -38,14 +38,31 @@ class FunctionsElements(ElementsStorage):
         delenec = b//a
         return delenec
 
+    def minIsGreaterMax(self,a , b):
+
+        if a > b:
+            return True
+        else:
+            pass
+
+    def minElement(self):
+        minEl = min(self.storage)
+        return minEl
+    def maxElement(self):
+        maxEl = max(self.storage)
+        return maxEl
+
 
 
 elements = FunctionsElements()
 # elements = ElementsStorage()
 
-# elements.randomChoiceInt(10, 99) #random
-elements.userChoiceInt()  # user
+elements.randomChoiceInt(10, 99) #random
+# elements.userChoiceInt()  # user
 
 # print(elements.storage)
 print(elements.sumElements())
 print(elements.arithmElements(elements.lenStorage(), elements.sumElements()))
+print(elements.maxElement())
+print(elements.minElement())
+print(elements.minIsGreaterMax(elements.maxElement(), elements.minElement()))
