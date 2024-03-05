@@ -57,8 +57,8 @@ class FunctionsElements(ElementsStorage):
 elements = FunctionsElements()
 # elements = ElementsStorage()
 
-# elements.randomChoiceInt(10, 99) #random
-elements.userChoiceInt()  # user
+elements.randomChoiceInt(10, 99) #random
+# elements.userChoiceInt()  # user
 
 # print(elements.storage)
 print(elements.sumElements())

@@ -8,7 +8,7 @@ class FuncElementsTesting(unittest.TestCase):
         self.assertEqual(fet.arithmElements(10,50), 5)
     def maxIsGreater(self):
         fet = FunctionsElements()
-        self.assertGreater(fet.minIsGreaterMax(fet.maxElement(), fet.minElement()),False)
+        self.assertGreater(fet.minIsGreaterMax(fet.maxElement(),fet.minElement()))
 
 
 
