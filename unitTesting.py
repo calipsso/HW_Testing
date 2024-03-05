@@ -6,10 +6,10 @@ class FuncElementsTesting(unittest.TestCase):
     def testArithmFunc(self):
         fet = FunctionsElements()
         self.assertEqual(fet.arithmElements(10,50), 5)
-    def maxIsGreater(self):
-        fet = FunctionsElements()
-        self.assertGreater(fet.minIsGreaterMax(fet.maxElement(),fet.minElement()))
 
+    def lenStorage(self):
+        fet = FunctionsElements()
+        self.assertEqual(fet.lenStorage(), 10)
 
 
 if __name__ == "__main__":

@@ -8,6 +8,3 @@ def testArithmFunc(a, b, expected):
     fet = FunctionsElements()
     assert fet.arithmElements(10, 50) == 5
 
-def truOrFal():
-    fet = FunctionsElements()
-    assert fet.minIsGreaterMax(fet.maxElement(),fet.minElement())

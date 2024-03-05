@@ -1,5 +1,4 @@
 import random
-import math
 
 class ElementsStorage:
     def __init__(self):
@@ -14,13 +13,6 @@ class ElementsStorage:
         for num in usrVstup.split():
             self.storage.add(int(num))
         return self.storage
-
-    #def sumElements(self):
-        #sumZoznam = 0
-        #for num in self.storage:
-            #sumZoznam += num
-        #return sumZoznam
-
 
 class FunctionsElements(ElementsStorage):
 
@@ -55,9 +47,8 @@ class FunctionsElements(ElementsStorage):
 
 
 elements = FunctionsElements()
-# elements = ElementsStorage()
 
-elements.randomChoiceInt(10, 99) #random
+elements.randomChoiceInt(10, 99) # random
 # elements.userChoiceInt()  # user
 
 # print(elements.storage)
