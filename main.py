@@ -43,7 +43,7 @@ class FunctionsElements(ElementsStorage):
         if a > b:
             return True
         else:
-            pass
+            return False
 
     def minElement(self):
         minEl = min(self.storage)
@@ -57,8 +57,8 @@ class FunctionsElements(ElementsStorage):
 elements = FunctionsElements()
 # elements = ElementsStorage()
 
-elements.randomChoiceInt(10, 99) #random
-# elements.userChoiceInt()  # user
+# elements.randomChoiceInt(10, 99) #random
+elements.userChoiceInt()  # user
 
 # print(elements.storage)
 print(elements.sumElements())
